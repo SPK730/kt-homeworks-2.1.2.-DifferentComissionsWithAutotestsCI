@@ -1,4 +1,4 @@
-package ru.netology
+﻿package ru.netology
 
 import comissionAmount
 import masterCardMaestro
@@ -124,7 +124,7 @@ class MainKtTest {
             transferAmount = amount,
             previousMonthTransferAmount = previousAmount
         )
-        assertEquals(337.5, result, 0.0001)
+        assertEquals(500.0, result, 0.0001)//Этот тест упадет! (ожидается 337,5
     }
 
     @Test
