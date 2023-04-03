@@ -124,7 +124,7 @@ class MainKtTest {
             transferAmount = amount,
             previousMonthTransferAmount = previousAmount
         )
-        assertEquals(337.5, result, 0.0001)
+        assertEquals(500.0, result, 0.0001)//Этот тест упадет - должно быть 337,5
     }
 
     @Test
